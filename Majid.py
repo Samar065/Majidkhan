@@ -409,8 +409,10 @@ __________________×______________________
   Github   :  YASHIKA SARANG 
 
   Facebook : ⭐⭐⭐⭐
-  
-  Contact : +919050966900
+
+  YOUTUBE  : Technicalboss07
+
+  Contact  : +919050966900
 __________________×______________________\033[1;37m""")
 
 class Main:
@@ -419,7 +421,6 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
-os.system("xdg-open https://youtube.com/c/Technicalboss07 ")
 		os.system("clear")
 		print(logo)
 		print("\n [1] File Cloning")
