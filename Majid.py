@@ -431,7 +431,7 @@ class Main:
 			print("    Thanks♥️")
 			exit() 
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://youtube.com/c/Technicalboss07 ")
+			os.system("xdg-open https://www.facebook.com/Nawab082 ")
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
@@ -1340,4 +1340,4 @@ try:Main()
 except Exception as e:exit(str(e))
  
 
-	
+
